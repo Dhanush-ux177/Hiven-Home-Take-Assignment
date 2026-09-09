@@ -1,0 +1,410 @@
+[
+  {
+    "id": "EX_APPL_d515c1503ad8",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "buenos dias les escribo desde caracas venezuela, tengo un problema con mi iphone 5 ya que no quiere acceder al servidor de activacion",
+    "resolved_reply": "We offer support via Twitter in English. Get help in Spanish here: https://t.co/IBIY3vMgPj or join https://t.co/OczyRx7IOs",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_12330b52f60a",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f iOS 11.0.3 \u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f",
+    "resolved_reply": "We'd love to help out with that. Please join us in DM to get started. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_c40b68e410f4",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "@AppleSupport Let\u2019s do an update to solve my proble... oh wait... #wtfapple https://t.co/5SuCBZAgbI",
+    "resolved_reply": "Try out the steps for updating through iTunes, let us know via DM if there is an issue: https://t.co/80YRnjDFDk",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_aef493a7895f",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "@AppleSupport they way my phone is glitching out just because it's not new MAKES ME WANT TO SWITCH BRANDS",
+    "resolved_reply": "We want you to be able to rely on your iPhone. Send us a DM with the details about your concerns. We'll take a look there. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_82970187a1de",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "You know the @115858 #iPhoneUpdate was bad when you come out of your Twitter hiatus just to complain about it https://t.co/qfjb4OVHsm",
+    "resolved_reply": "We've got your back! Let's pair up in DM and look into what's happening with your iPhone. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_4ef8c1c59dc6",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "hey can you help me out with a issue I\u2019m having?",
+    "resolved_reply": "We're happy to help in any way we can. What's going on with your device?",
+    "recommended_action": "Persistent multi-turn software glitch where standard isolation steps failed",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_e8c746266bad",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Upgraded my iphone 6+ software and now the damn phone doesn't work and can't downgrade to old software. WTF? \ud83d\ude21\ud83e\udd2c @AppleSupport",
+    "resolved_reply": "We'd like to help. What seems to be the issue you're currently experiencing on your iPhone?",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_21aa9b47891e",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Al\u00f4 @AppleSupport ? Tudo bom bb? Deixa eu te falar, atualizei meu iPhone pro iOS 11 e deu bug na lanterna, me ajuda a\u00ed querida, obrigada!",
+    "resolved_reply": "Since our Twitter support is available in English, get help at https://t.co/IBIY3vMgPj or join https://t.co/pvaOFfPbjt",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_1fba7dc7203f",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Honestly screw @115858 @AppleSupport they have done nothing but mess me up today and have been no help, poor service",
+    "resolved_reply": "We're here to help. Let's take this to DM so we can better assist you. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_f17a011ceba2",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "why did I just have to erase my brand new iPhone via Find My Phone b/c it froze and would only give me access to my first homepage",
+    "resolved_reply": "We're happy to look into this with you. Go ahead and let us know which country/region you're located in within DM here: https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_046c48692609",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "I\u2019m having trouble installing the latest update IOS 11.0.3. I\u2019ve downloaded it but it won\u2019t install #help",
+    "resolved_reply": "We're happy to help with this. Could you tell us which device you're using? What happens when you attempt to install the update?",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_2e68c67b7c51",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "i'm trying to update my phone but it keeps saying there was an error while trying to update?? \ud83d\udc7f",
+    "resolved_reply": "We're happy to help get your iPhone updated. Are you updating through iTunes or on the device itself?",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_1c408edafcb1",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "my 6S crashes on a daily basis since iOS 11. I am on 11.0.3. When can I expect a newer software update to resolve this?",
+    "resolved_reply": "That is not expected. We'd like to help. Go ahead and DM us some more details of what is happening and we can work together. https://t.co/GDrqU22YpT",
+    "recommended_action": "Persistent multi-turn software glitch where standard isolation steps failed",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_6591e845ad5e",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "What have you done with my perfectly fine IPhone 7 Plus that you thought needed an update? #itwasfine #pleasefixit #apple #iphone",
+    "resolved_reply": "We'd be happy to work with you. Can you tell us what you're experiencing?",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_c5dd5a1ecd3d",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Siri needs to be able to do this or what\u2019s the point? @AppleSupport @33423 https://t.co/HVRuBWgxrv",
+    "resolved_reply": "We can understand your need for Siri to do this. Meet us in DM so we can review ways to help make this happen next time around. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_ad65255088d5",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "help! Since the ios update I can no longer make calls! Vital for my job. Having to rely on whatsapp currently",
+    "resolved_reply": "Was this the iOS 11.0.3 update? https://t.co/80YRnjDFDk DM us and also let us know the country you're in. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_cb2f2002947d",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "I pay to have music on my phone every month so can @AppleSupport figure out the problem &amp; fix it. Please &amp; thank you\ud83e\udd26\ud83c\udffd\u2640\ufe0f",
+    "resolved_reply": "We can assist you. Which iPhone model are you using?",
+    "recommended_action": "Standard software isolation steps (device model, iOS version check, restart) apply",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_0606e5ed46a3",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "What has iOS 11 done to my battery? \ud83d\ude21",
+    "resolved_reply": "We're here to help out. DM us to continue working together on your case. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_5d46022ab34e",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "since ios11 my beats x battery level not visible in control centre. Bring it back! Pls \u263a\ufe0f",
+    "resolved_reply": "Here to help. To make sure we've got it right, when your BeatsX are connected with your iPhone the battery percentage doesn't show?",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_280e6883a2ae",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "Managed devices with iOS 11 can\u2018t connect to wifi, showing the screen like in the image seen below. How can this be solved? https://t.co/dpyvgslUd3",
+    "resolved_reply": "Hey, we'll do our best to help you get connected. Meet us in DM and let's continue from there. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_1b36ed304f51",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "Finally updated my phone a couple days ago and now the battery dies way faster than it did before thx so fucking much :-)) @115858",
+    "resolved_reply": "You've come to the right place for help. Let's continue chatting via DM to take a closer look at options. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_a45dc6d0bbf3",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "Hey @115858 @AppleSupport your 11.0.3 is pretty crap battery drainer + slower \ud83d\udc4e\ud83d\udc4e\ud83d\udc4e",
+    "resolved_reply": "Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_67e01f5b707e",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "iOS update is horrible. Chews up battery and email client is very slow. Feels like old MSFT products. Ugh.",
+    "resolved_reply": "We'd be happy to look into this with you more in detail. Please reach out to us via DM and we'll get started. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_8ea7da032858",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "The photos app is absolutely draining my battery with 9 hours of background tasks since iOS 11. Any advice?",
+    "resolved_reply": "That's not okay. Your photos are important to us and our Photos team wants to help. Reach out here. https://t.co/IBIY3vMgPj",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_159551150062",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "This new @115858 update demolishes my battery life. Loving my new corded phone",
+    "resolved_reply": "Battery life is important. Reach out via DM using the link below. https://t.co/GDrqU22YpT",
+    "recommended_action": "Standard battery health settings check & background app refresh guidance applies",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_a3dc8bd0aca9",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "Hey @AppleSupport I barely used my 5s much today and had to charge it 3x and the day's not over yet. Yup iOS 11.0.3! #realworldproblems",
+    "resolved_reply": "That's unexpected. Let us help you out. Let us know how long ago you completed the update to iOS 11.0.3, via DM. https://t.co/GDrqU22YpT",
+    "recommended_action": "Requires private account verification (PII/Apple ID security unlock protocol)",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_1f56d2dac39c",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "My uncle accidentally deleted photos from iCloud photo library is there anyway to get them back if he calls you?",
+    "resolved_reply": "We'll help you get to the right place for help. Connect with our Photos support here to get started: https://t.co/IBIY3vMgPj",
+    "recommended_action": "Requires private account verification (PII/Apple ID security unlock protocol)",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_396341336a03",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "this update has literally destroyed my 6s battery lasts about 3 hours max an takes forever to charge!",
+    "resolved_reply": "We'd like to help! Send us a DM with the country that you are located in and we will continue from there. https://t.co/GDrqU22YpT",
+    "recommended_action": "Requires private account verification (PII/Apple ID security unlock protocol)",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_28e3d7d2cf1c",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "tfw - your iPad won\u2019t charge &amp; the @115858 store genius bar has no appts. until tomorrow. https://t.co/3KhXdun0Ft",
+    "resolved_reply": "We'd love to take a look! To begin, have you tried the steps listed here: https://t.co/EqJrZrFL9k",
+    "recommended_action": "Requires private account verification (PII/Apple ID security unlock protocol)",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_f71df3abd08c",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "Dear @115858, I updated my new phone because everyone said it was super cool and my phone takes the entire day to charge 1/2 way. Super cool\ud83d\ude43",
+    "resolved_reply": "We want you to have a good experience with the update. Are you charging the iPhone with the cable that came with it?",
+    "recommended_action": "Requires private account verification (PII/Apple ID security unlock protocol)",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_e3d64322a412",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "Worst customer experience @115858 today. Seriously considering switching my life to @138021. #wastedmytimeandmoney #ByeFelicia",
+    "resolved_reply": "Hi, we're sorry to hear that. Can you send us a DM and tell us more about your experience? Your feedback is very important to us. https://t.co/GDrqU22YpT",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_5b980829e518",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "y\u2019all got me fucked up with this update! Harassed me to update my phone and now I have hella glitches \ud83d\ude12!",
+    "resolved_reply": "We expect your device to run smooth just as you do. We'd like to help. Can you let us know the device model? Send us a DM. https://t.co/GDrqU22YpT",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_a661fbef3af7",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "FUCKING @115858.... this damn update is fucking up my phone... I've restarted it over 50 times within the past hour......",
+    "resolved_reply": "We're here to help. DM us what's going on and we'll get started. https://t.co/GDrqU22YpT",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_ed9e75129ef3",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "iOS 11 is trash\ud83d\ude02 @AppleSupport literally my music just pauses randomly or it\u2019ll just randomly change the song when I use literally any app",
+    "resolved_reply": "That's certainly not what we'd expect; we'd like to help. To confirm, are you using the built-in Music app? Tell us via DM. https://t.co/GDrqU2kzhr",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_8755ad0ffcc8",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "Thanks @115858 for completely fucking up my phone! IOS 11 is just peachy!",
+    "resolved_reply": "Let's look into that. Send us a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_APPL_87f17053be57",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": ", u know what I hate about the new ios?there\u2019s no on or off button 4 auto brightness , so my phone is constantly changing setting \ud83d\ude24",
+    "resolved_reply": "We can shed some light on that for you. Check out the changes with auto-brightness here: https://t.co/bkqEVCrK2l",
+    "recommended_action": "Brand feedback logged; empathetic de-escalation without requiring human technician",
+    "kb_link": "https://support.apple.com"
+  },
+  {
+    "id": "EX_KB_01",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "My keyboard lags terribly since updating to iOS 11. Typing is painful.",
+    "resolved_reply": "We can help look into this. To start, does this happen across all apps (like Messages and Notes) or only specific ones? Also, have you tried restarting your device?",
+    "recommended_action": "Isolate app scope; check Settings > General > Reset > Reset Keyboard Dictionary.",
+    "kb_link": "https://support.apple.com/en-us/HT201559"
+  },
+  {
+    "id": "EX_KB_02",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "My iPhone 7 battery health is dropping like crazy and shuts down at 20%.",
+    "resolved_reply": "Unexpected shutdowns are frustrating. Please check Settings > Battery > Battery Health (Beta) to see the Maximum Capacity. You can also DM us so we can run a remote battery diagnostic.",
+    "recommended_action": "Run iOS Battery Health check; initiate remote diagnostics session via DM.",
+    "kb_link": "https://support.apple.com/en-us/HT208387"
+  },
+  {
+    "id": "EX_KB_03",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "My Apple ID is locked and I am not receiving my 2FA verification code on my trusted number.",
+    "resolved_reply": "We take your account security very seriously. To protect your data, we cannot view or edit account credentials on Twitter. Please visit iforgot.apple.com to initiate account recovery, or DM us for guidance.",
+    "recommended_action": "Route to iforgot.apple.com; enforce zero credential capture on public Twitter.",
+    "kb_link": "https://iforgot.apple.com"
+  },
+  {
+    "id": "EX_KB_04",
+    "intent": "DEVICE_SETUP_FEATURE",
+    "customer_query": "How do I delete apps on iPhone 7? Pressing down just opens quick actions.",
+    "resolved_reply": "With 3D Touch on iPhone 7, make sure to gently touch and rest your finger on the app icon without pressing down into the screen. Wait a moment until the apps begin to wiggle.",
+    "recommended_action": "Explain 3D Touch pressure difference vs touch-and-hold; link HT207354.",
+    "kb_link": "https://support.apple.com/en-us/HT207354"
+  },
+  {
+    "id": "EX_KB_05",
+    "intent": "STORE_REPAIR_ORDER",
+    "customer_query": "Need to replace cracked screen today in London. Can I walk into Covent Garden Apple Store?",
+    "resolved_reply": "We'd recommend making an appointment beforehand to avoid long wait times. You can check reservation slots and book a Genius Bar visit using the Apple Support app or via getsupport.apple.com.",
+    "recommended_action": "Direct to Genius Bar appointment portal or Apple Support app.",
+    "kb_link": "https://getsupport.apple.com"
+  },
+  {
+    "id": "EX_KB_06",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "Removing the headphone jack is the dumbest move Apple has ever done. So greedy.",
+    "resolved_reply": "We understand change can be frustrating and we value your feedback. You can submit your thoughts and feature suggestions directly to our product engineering teams at apple.com/feedback.",
+    "recommended_action": "Empathetic acknowledgment; redirect to official feedback portal.",
+    "kb_link": "https://www.apple.com/feedback"
+  },
+  {
+    "id": "EX_KB_07",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Wi-Fi keeps dropping constantly after the 11.0.3 update on iPhone 6s.",
+    "resolved_reply": "Let's work together on your Wi-Fi connection. Does this happen on all Wi-Fi networks or only your home network? You can also try Settings > General > Reset > Reset Network Settings.",
+    "recommended_action": "Reset network settings; isolate whether issue is single-router or multi-network.",
+    "kb_link": "https://support.apple.com/en-us/HT204051"
+  },
+  {
+    "id": "EX_KB_08",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "My iPhone screen is lifting up from the frame and the battery looks swollen! Is it dangerous?",
+    "resolved_reply": "For your safety, please immediately stop using and charging the device. We advise bringing it to your nearest Apple Store or Apple Authorized Service Provider for physical inspection right away.",
+    "recommended_action": "Immediate safety warning; urgent hardware dispatch to Apple Store Genius Bar.",
+    "kb_link": "https://support.apple.com/repair"
+  },
+  {
+    "id": "EX_KB_09",
+    "intent": "ACCOUNT_SECURITY_ICLOUD",
+    "customer_query": "I got an email saying I bought a $99 subscription in App Store that I never made! Was I hacked?",
+    "resolved_reply": "We understand how concerning this is. First, check your official purchase history at reportaproblem.apple.com to verify if the charge is legitimate or a phishing scam. DM us if you need help securing your Apple ID.",
+    "recommended_action": "Phishing verification via reportaproblem.apple.com; DM security escalation.",
+    "kb_link": "https://reportaproblem.apple.com"
+  },
+  {
+    "id": "EX_KB_10",
+    "intent": "DEVICE_SETUP_FEATURE",
+    "customer_query": "How do I set up Family Sharing so my daughter can share my iCloud storage?",
+    "resolved_reply": "Family Sharing makes this easy! On your device, go to Settings > [Your Name] > Family Sharing > Set Up Your Family, then choose iCloud Storage to invite family members.",
+    "recommended_action": "Step-by-step Family Sharing setup guide.",
+    "kb_link": "https://support.apple.com/en-us/HT201088"
+  },
+  {
+    "id": "EX_KB_11",
+    "intent": "STORE_REPAIR_ORDER",
+    "customer_query": "My trade-in box hasn't arrived and it's been 10 days since I ordered iPhone X.",
+    "resolved_reply": "We'd be glad to track your trade-in kit. Please reach out in DM with your order number and email address so we can review the shipment status with logistics.",
+    "recommended_action": "Private order shipment tracking via DM.",
+    "kb_link": "https://www.apple.com/shop/trade-in"
+  },
+  {
+    "id": "EX_KB_12",
+    "intent": "SOFTWARE_OS_BUG",
+    "customer_query": "Bluetooth turns back on automatically every morning on iOS 11. Why?",
+    "resolved_reply": "In iOS 11, turning off Wi-Fi or Bluetooth in Control Center disconnects accessories but keeps Wi-Fi and Bluetooth available for AirDrop, AirPlay, and Apple Watch. To turn it off completely, use Settings > Bluetooth.",
+    "recommended_action": "Explain Control Center disconnect vs Settings toggle behavior.",
+    "kb_link": "https://support.apple.com/en-us/HT208086"
+  },
+  {
+    "id": "EX_KB_13",
+    "intent": "GENERAL_FEEDBACK_RANT",
+    "customer_query": "Apple prices are outrageous. 1000 dollars for a phone is pure corporate greed.",
+    "resolved_reply": "We appreciate your perspective and take all customer sentiment into consideration. You can share your direct thoughts on our product lineup and pricing with our team at apple.com/feedback.",
+    "recommended_action": "Polite non-defensive acknowledgment; redirect to feedback.",
+    "kb_link": "https://www.apple.com/feedback"
+  },
+  {
+    "id": "EX_KB_14",
+    "intent": "DEVICE_SETUP_FEATURE",
+    "customer_query": "How do I use Screen Recording on iOS 11? I can't find the button.",
+    "resolved_reply": "You can add Screen Recording right to Control Center! Go to Settings > Control Center > Customize Controls, then tap the green plus next to Screen Recording.",
+    "recommended_action": "Control Center customization guide.",
+    "kb_link": "https://support.apple.com/en-us/HT207935"
+  },
+  {
+    "id": "EX_KB_15",
+    "intent": "HARDWARE_BATTERY",
+    "customer_query": "My lightning cable broke right near the connector after 2 months. Does AppleCare cover this?",
+    "resolved_reply": "Accessories that come in the box with your iPhone are covered under the Apple One-Year Limited Warranty against defects. You can visit an Apple Store or contact our support team to explore a replacement.",
+    "recommended_action": "Explain 1-year limited warranty coverage for in-box lightning accessories.",
+    "kb_link": "https://support.apple.com/iphone/repair/service"
+  }
+]

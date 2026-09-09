@@ -1,0 +1,6 @@
+{
+  "name": "Twitter Customer Support AI Agent & Benchmark",
+  "description": "Production-grade AI support agent trained and evaluated on real Kaggle Twitter customer support conversations (@AppleSupport), featuring intent classification, historical grounding, escalation policy, 200-example golden benchmark, and LLM-as-judge calibration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

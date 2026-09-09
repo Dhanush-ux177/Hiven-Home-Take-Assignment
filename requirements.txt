@@ -1,0 +1,9 @@
+# Core Requirements for @AppleSupport AI Agent & Benchmark Suite
+# -------------------------------------------------------------
+# ZERO external pip dependencies required!
+# The entire agent, baselines, evaluation harness, CLI, unit tests,
+# and HTTP server run 100% on the Python 3 standard library:
+#   - http.server, urllib, json, math, re, argparse, unittest, typing
+
+# Optional (only needed if using live Gemini LLM reply drafting):
+# google-genai>=2.4.0
