@@ -200,22 +200,76 @@ The Kaggle Apple dataset was recorded predominantly during the launch of iOS 11,
 
 ## 8. Reproduction Guide (Under 15 Minutes)
 
-The entire evaluation benchmark can be executed and reproduced in under **30 seconds** on any standard workstation:
+The entire evaluation benchmark can be executed and reproduced in under **10 seconds** on any standard workstation:
 
 ```bash
-# 1. Install dependencies
-npm install
+# 1. Run the complete 200-record benchmark against both baselines
+python3 main.py
 
-# 2. Run the complete 200-record benchmark against both baselines
-python3 scripts/run_eval.py
-# Alternatively:
-npm run eval
+# 2. Test an individual custom query with comparative baseline outputs
+python3 main.py --query "My Apple ID is locked and I can't receive my 2FA code"
 
 # 3. Test a quick 50-sample subset
-python3 scripts/run_eval.py --quick
+python3 main.py --quick
 
-# 4. Test an individual custom query with real-time inference
-python3 scripts/run_eval.py --query "My Apple ID is locked and I can't receive my 2FA code"
+# 4. Run the automated unit test suite
+python3 main.py --test
 ```
 
 Results, confusion matrices, and detailed case breakdowns are written to `data/evaluation_results.json`.
+
+---
+
+## 9. What We Would Do Next With One More Week
+
+If granted one additional engineering week, we would execute the following prioritized roadmap:
+
+1. **Multi-Label Intent Parsing with Hierarchical Decomposition**: Transition from single-label argmax to multi-label intent probabilities. When a customer inquiry combines software troubleshooting with hardware defects ("My battery expanded while installing iOS 11"), the system should trigger the hardware safety escalation while extracting the software context for human agents.
+2. **Multimodal Twitter Image & OCR Pipeline**: Integrate lightweight local OCR (Tesseract / Vision API) to extract diagnostic error codes and screenshots from attached Twitter media URLs, resolving Failure Mode 5.
+3. **Fuzzy & Phonetic Levenshtein Safety Dictionary**: Replace pure token and regex safety guardrails with phonetic matching (e.g., Metaphone/Double Metaphone) and edit-distance tolerances, ensuring typos like *"iorn"*, *"sweling"*, or *"overheting"* never bypass emergency thermal escalation (Failure Mode 3).
+4. **Multilingual ISO Language Detection & Queue Routing**: Prepend an upfront language classifier (`langdetect` / fastText) to detect non-English queries (Portuguese, Spanish, Japanese) and route them to regional native support workflows instead of defaulting to English software triage (Failure Mode 4).
+5. **Cross-Turn Dynamic State Tracking**: Expand the state engine from single-turn evaluations to multi-turn conversation trees, dynamically updating escalation confidence if a customer repeats complaints or exhibits mounting frustration across $\ge 2$ consecutive turns.
+6. **Active Learning & Negative Exemplar Mining**: Feed the 44 classified benchmark errors back into an active learning loop to automatically surface ambiguous boundary cases between venting (`GENERAL_FEEDBACK_RANT`) and actionable bugs (`SOFTWARE_OS_BUG`).
+
+---
+
+## 10. Decision Log (12 Non-Obvious Decisions & Rationale)
+
+Below is the chronological decision log detailing non-obvious engineering choices and trade-offs made during development:
+
+1. **Zero External Pip Dependencies in Python Backend**:
+   - *Decision:* Implemented all core agent logic, BM25 retrieval, golden evaluation metrics, Cohen's Kappa, and the HTTP server using 100% Python standard library modules (`http.server`, `urllib`, `json`, `math`, `re`, `argparse`, `unittest`).
+   - *Why:* Eliminates dependency rot, virtualenv setup friction, and container build failures. Guarantees reproducible evaluation in $< 10$ seconds on any system with Python 3 installed.
+2. **Stratified Intent Sampling over Uniform Random Sampling**:
+   - *Decision:* Deliberately constrained `SOFTWARE_OS_BUG` to 50% and over-sampled safety-critical edge cases (`ACCOUNT_SECURITY_ICLOUD` at 13%, `HARDWARE_BATTERY` at 21.5%).
+   - *Why:* Pure random sampling yields $> 75\%$ repetitive iOS update complaints. Stratified sampling guarantees rigorous statistical coverage of rare, high-consequence failure modes.
+3. **Prioritizing "False Auto-Handle Rate" Over Escalation Accuracy**:
+   - *Decision:* Calibrated the escalation threshold to optimize for recall on critical safety/security issues, accepting a higher False Positive rate (26.0% Unnecessary Escalation).
+   - *Why:* In enterprise support, routing a routine Wi-Fi issue to a human agent incurs marginal cost; failing to escalate an account takeover or a swollen battery hazard creates existential legal and safety liability.
+4. **Explicit Rejection of Open-Ended Conversational Chatbot Behavior**:
+   - *Decision:* Restricted the agent's generative freedom to brand-compliant diagnostic isolation questions and official Knowledge Base links.
+   - *Why:* An unconstrained generative LLM on public Twitter is vulnerable to prompt injection, tone degradation, hallucinated specs, and unverified return policies.
+5. **Deterministic BM25 Retrieval over Heavy Vector Embeddings**:
+   - *Decision:* Used BM25 keyword salience for historical exemplar retrieval rather than dense neural embedding vectors (e.g. sentence-transformers).
+   - *Why:* BM25 provides instantaneous, sub-millisecond retrieval on modest hardware without embedding server latency or vector database infrastructure overhead, while offering exact token matching for precise error codes and product models.
+6. **Decoupling Intent Classification from Escalation Decision**:
+   - *Decision:* Architected Intent Classification and Escalation Decision as two distinct, parallel evaluation tracks rather than bundling them into a single step.
+   - *Why:* A customer can report an identical intent (`HARDWARE_BATTERY`) under two radically different risk profiles: normal battery degradation (self-service auto-handle) versus physical swelling (emergency safety escalation).
+7. **Refusal to Request or Process Account Credentials on Public Twitter**:
+   - *Decision:* Programmed the agent to never accept or solicit Apple IDs, passwords, or 2FA codes in public tweets, immediately redirecting to `iforgot.apple.com` or private Direct Messages.
+   - *Why:* Public social channels are indexed by third parties. Handling PII in public violations PCI-DSS, GDPR, and basic digital identity security best practices.
+8. **Rejecting Historical "DM-Everything" Human Labeling Habits**:
+   - *Decision:* Annotated ground truth escalation as `False` for basic feature questions, even though historical human agents frequently responded with canned DM invites.
+   - *Why:* Human agents in 2017 often deflected to DM due to Twitter's 140-character limit. An AI support agent must provide immediate public self-service value where safe, rather than replicating human deflection bottlenecks.
+9. **Four-Axis Multi-Dimensional Rubric for LLM-as-a-Judge**:
+   - *Decision:* Scored replies across Factual Grounding (0.35), Safety (0.25), Brand Tone (0.20), and Actionability (0.20) rather than a single monolithic "Overall Quality" score.
+   - *Why:* Monolithic scoring causes judges to overvalue pleasant phrasing while overlooking subtle factual hallucinations or missed safety guardrails.
+10. **Reporting Adjacent Agreement Rate Alongside Cohen's Kappa**:
+    - *Decision:* Evaluated LLM judge calibration using both Quadratic Weighted Kappa and Adjacent Agreement Rate ($|Judge - Human| \le 1.0$).
+    - *Why:* On a continuous 1–5 ordinal scale, slight boundary variance (e.g. 4.0 vs. 4.2) heavily penalizes unweighted Kappa, while adjacent agreement demonstrates practical operational consensus (94.0%).
+11. **Static Pre-Rendering with Live Dynamic API Fallbacks**:
+    - *Decision:* Compiled web dashboard assets directly to `dist/` while providing live REST endpoints (`/api/query`, `/api/benchmark`, `/api/run-eval`).
+    - *Why:* Enables instant visual rendering without waiting for benchmark recalculation on page load, while allowing real-time interactive testing and benchmarking on demand.
+12. **Pure Python Multi-Threaded HTTP Server on Port 3000**:
+    - *Decision:* Built `server.py` with Python's built-in `ThreadingHTTPServer` to serve both the static dashboard and JSON API routes on port 3000.
+    - *Why:* Fulfills the single-port external reverse proxy requirement while maintaining zero third-party web framework dependencies (no Express, Flask, or FastAPI needed).
